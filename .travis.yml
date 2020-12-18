@@ -21,7 +21,7 @@ jobs:
         - $HOME/.npm
       deploy:
         provider: releases
-        api_key: "${API_KEY}"
+        api_key: "${GITHUB_API_KEY}"
         file: "cleanlink${TRAVIS_TAG}.zip"
         skip_cleanup: true
         on:

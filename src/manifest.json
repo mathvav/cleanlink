@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "CleanLink",
+	"description": "A browser extension that shortens lengthy links and removes tracking data without the use of a link shortening service.",
+	"author": "Matt Vavricek",
+	"homepage_url": "https://github.com/mathvav/cleanlink",
+    "version": "0.1.0",
+    "icons": {
+        "16": "icons/blueicon-16.png",
+        "48": "icons/blueicon-48.png",
+        "128": "icons/blueicon-128.png"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "browser_action": {
+		"default_icon": "icons/grayicon-16.png",
+		"browser_style": true,
+		"default_title": "Copy the shortened link to the clipboard",
+		"default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": false
+    }
+}

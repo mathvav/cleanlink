@@ -1,0 +1,22 @@
+$lightblue: #99baba;
+$blue: #3091f2;
+$orange: #efc130;
+$gray: #4c4c4c;
+
+body {
+	// Chrome applies an 8px margin by default (gross):
+	margin: 0px;
+	padding: 20px;
+	width: 269px;
+	background-color: $gray;
+	color: $lightblue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 4px;
+}
+
+.popup-container {
+	align-items: center;
+	justify-content: center;
+}

@@ -1,0 +1,37 @@
+{
+	"name": "cleanlink",
+	"version": "0.1.0",
+	"description": "A Chrome/Edge extension that shortens lengthy links and removes tracking data without the use of a link shortening service.",
+	"repository": "https://github.com/mathvav/cleanlink",
+	"private": true,
+	"scripts": {
+		"prod": "rm -rf ./dest && webpack --config webpack.prod.js",
+		"dev": "rm -rf ./dest && webpack --config webpack.dev.js",
+		"watch": "rm -rf ./dest && webpack -w --config webpack.dev.js",
+		"test": "jest"
+	},
+	"author": "Matt Vavricek",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/chrome": "^0.0.60",
+		"@types/jest": "^26.0.19",
+		"@types/react": "^16.9.32",
+		"@types/react-dom": "^16.9.6",
+		"copy-webpack-plugin": "^7.0.0",
+		"css-loader": "^3.4.2",
+		"jest": "^26.6.3",
+		"node-sass": "^4.13.1",
+		"sass-loader": "^6.0.7",
+		"style-loader": "^0.20.3",
+		"ts-jest": "^26.4.4",
+		"ts-loader": "^4.0.1",
+		"typescript": "^3.8.0",
+		"webpack": "^5.0.0-rc.6",
+		"webpack-cli": "^3.3.11",
+		"webpack-merge": "^4.2.2"
+	},
+	"dependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	}
+}

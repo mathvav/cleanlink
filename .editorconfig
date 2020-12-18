@@ -1,14 +1,14 @@
 # top-most EditorConfig file
 root = true
 
+[*.yml]
+indent_style = space
+tab_width = 2
+
 # Unix-style newlines with a newline ending every file and tab indentations
 [*]
 indent_style = tab
 end_of_line = lf
 insert_final_newline = true
 tab_width = 4
-
-# Matches multiple files with brace expansion notation
-# Set default charset
-# [*.{js,py}]
-# charset = utf-8
+charset = utf-8

@@ -1,0 +1,28 @@
+language: node_js
+node_js: 14
+os: linux
+dist: xenial
+git:
+  depth: 1
+  quiet: true
+
+jobs:
+  include:
+    - stage: Verify Build, Lint Code, and Run Tests
+      name: Build, Test, and Zip
+      install:
+      - npm install
+      script:
+      - npm run prod
+      - npm run test
+      - zip -r "cleanlink${TRAVIS_TAG}.zip" ./dest
+      cache:
+        directories:
+        - $HOME/.npm
+      deploy:
+        provider: releases
+        api_key: "${API_KEY}"
+        file: "cleanlink${TRAVIS_TAG}.zip"
+        skip_cleanup: true
+        on:
+          tags: true

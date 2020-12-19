@@ -11,8 +11,7 @@
         "128": "icons/blueicon-128.png"
     },
     "permissions": [
-        "tabs",
-        "activeTab"
+        "tabs"
     ],
     "browser_action": {
 		"default_icon": "icons/grayicon-16.png",

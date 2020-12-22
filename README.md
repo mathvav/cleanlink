@@ -1,20 +1,20 @@
 # CleanLink: A Chrome/Edge extension that shortens lengthy links and removes tracking data without the use of a link shortening service.
 
 **Release info**
-<br />
+<br /><!-- this br tag takes up less vertical space than a new paragraph -->
 [![Chrome web store](https://img.shields.io/chrome-web-store/v/copgnnhedjdobmglcjbeojddbkhoadpg?logo=google-chrome&label=latest%20chrome%20release)](https://chrome.google.com/webstore/detail/cleanlink/copgnnhedjdobmglcjbeojddbkhoadpg)
 [![GitHub release](https://img.shields.io/github/release-date/mathvav/cleanlink?label=latest%20github%20release%20date)](https://github.com/mathvav/cleanlink/releases)
 
 **Developer info (main branch)**
-<br />
+<br /><!-- this br tag takes up less vertical space than a new paragraph -->
 [![Main branch build status](https://img.shields.io/travis/com/mathvav/cleanlink?label=travis%20build)](https://travis-ci.com/mathvav/cleanlink)
 [![Main branch commits since latest GitHub release](https://img.shields.io/github/commits-since/mathvav/cleanlink/latest?label=commits%20since%20last%20github%20release)](https://github.com/mathvav/cleanlink/commits/main)
 [![License: MIT](https://img.shields.io/badge/license-MIT-1abc9c)](https://github.com/mathvav/cleanlink/blob/main/LICENSE)
 
 **Maintenance info**
-<br />
-[![Status: beta](https://img.shields.io/badge/status-beta-blueviolet)](https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta)
-[![@mathvav maintenance: actively developed](https://img.shields.io/badge/%40mathvav_maintenance_level-actively_developed-brightgreen)](https://gist.github.com/mathvav/033a4d949e94650a68bee81d94a371b3)
+<br /><!-- this br tag takes up less vertical space than a new paragraph -->
+[![@mathvav stability level: experimental](https://img.shields.io/badge/%40mathvav_stability_level-experimental-blueviolet)](https://gist.github.com/mathvav/76a115a315ec08b07728f98f99fe9a77)
+[![@mathvav maintenance level: actively developed](https://img.shields.io/badge/%40mathvav_maintenance_level-actively_developed-brightgreen)](https://gist.github.com/mathvav/033a4d949e94650a68bee81d94a371b3)
 [![Number of open GitHub issues](https://img.shields.io/github/issues-raw/mathvav/cleanlink)](https://github.com/mathvav/cleanlink/issues)
 
 **⚠️ CleanLink is currently in beta.** There is a small chance that the link copied to your clipboard will not be valid, however, CleanLink will not break your overall browsing experience. If you notice that CleanLink breaks any links when shortening them, please file an issue at https://github.com/mathvav/cleanlink/issues.

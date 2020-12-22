@@ -17,7 +17,7 @@
 [![@mathvav maintenance level: actively developed](https://img.shields.io/badge/%40mathvav_maintenance_level-actively_developed-brightgreen)](https://gist.github.com/mathvav/033a4d949e94650a68bee81d94a371b3)
 [![Number of open GitHub issues](https://img.shields.io/github/issues-raw/mathvav/cleanlink)](https://github.com/mathvav/cleanlink/issues)
 
-**⚠️ CleanLink is currently in beta.** There is a small chance that the link copied to your clipboard will not be valid, however, CleanLink will not break your overall browsing experience. If you notice that CleanLink breaks any links when shortening them, please file an issue at https://github.com/mathvav/cleanlink/issues.
+**⚠️ CleanLink is currently in beta.** There is a small chance that the link copied to your clipboard will not be valid, however, CleanLink will not break your overall browsing experience. If you notice that CleanLink breaks any links when shortening them, please file an issue at **https://github.com/mathvav/cleanlink/issues.**
 
 ## User documentation
 
